@@ -53,12 +53,12 @@ with app.app_context():
         db.create_all() 
 ```
 - - criando o usuario pelo flask shell
->>> user = User(username="Admin", password="Admin123@")
->>> user
-<User (transient 4464376672)>
->>> user.id
->>> db.session.add(user)
->>> db.session.commit()
->>> exit()
+- - - >>> user = User(username="Admin", password="Admin123@")
+- - - >>> user
+- - - <User (transient 4464376672)>
+- - - >>> user.id
+- - - >>> db.session.add(user)
+- - - >>> db.session.commit()
+- - - >>> exit()
 
 - - pode verificar no banco tabela User
