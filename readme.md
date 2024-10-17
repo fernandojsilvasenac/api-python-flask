@@ -42,10 +42,10 @@ def add_product():
 ## vamos para o flask-login agora para a parte da api com rota autenticada
 - Class/Model User criada
 - - para criar, pode usar o comando ```flask shell```
-```db.drop_all()``` apagará todas as tabelas já criadas
-```db.create_all()``` criará todas as Class/Model novamente
-```db.session.commit()``` efeturá a execução dos comandos acima
-```exit()```
+- - - ```db.drop_all()``` apagará todas as tabelas já criadas
+- - - ```db.create_all()``` criará todas as Class/Model novamente
+- - - ```db.session.commit()``` efeturá a execução dos comandos acima
+- - - ```exit()```
 
 - - - ou pode rodar continuar rodando no _main_
 ```
